@@ -1,0 +1,144 @@
+:root {
+  --backgroundColor: #1a1b27;
+  --backgroundColor2: #13131b;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: var(--backgroundColor);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0px auto;
+  background-color: var(--backgroundColor2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+header {
+  border-bottom: 1px solid #ddd;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.intro {
+  margin-top: 20px;
+  padding: 32px;
+}
+
+.intro-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  text-align: left;
+}
+
+.text-content {
+  flex: 1;
+}
+
+.image-content {
+  flex: 0 0 200px;
+}
+
+.profileImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.intro h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.intro p {
+  font-size: 14px;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.featuredWorks {
+  padding: 32px 16px;
+}
+
+.featuredWorks h2 {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.project {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.project img {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.project h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.project p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: white;
+}
+
+footer {
+  padding: 16px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+
+.socialIcons img {
+  width: 24px;
+  height: 24px;
+  margin: 0px 8px;
+  margin-top: 10px;
+}

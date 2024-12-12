@@ -1,0 +1,102 @@
+:root {
+  --backgroundColor: #1a1b27;
+  --backgroundColor2: #13131b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 25px;
+  color: white;
+  background-color: var(--backgroundColor);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: var(--backgroundColor2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  border-bottom: 1px solid #ddd;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+header nav ul li a.active {
+  font-weight: bold;
+}
+
+.blog {
+  padding: 60px;
+}
+
+.blog h1 {
+  text-align: center;
+  font-size: 29px;
+}
+
+.blog article {
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+
+.blog article h2 {
+  font-size: 24px;
+}
+
+.blog article .date {
+  color: #777;
+  font-size: 12px;
+  color: white;
+  margin-top: 5px;
+}
+
+.blog article p {
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.blog article ul {
+  margin-bottom: 16px;
+  padding-left: 20px;
+}
+
+.blog article ul li {
+  margin-bottom: 13px;
+}
+
+.blog article ul li strong {
+  font-weight: bold;
+  color: white;
+}
+
+footer {
+  padding: 16px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  margin: 0 8px;
+  margin-top: 10px;
+}
